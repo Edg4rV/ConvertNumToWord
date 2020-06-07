@@ -122,7 +122,7 @@ public class Main {
     }
 }
     public static void main(String[] args) {
-        System.out.println("Խնդրում եմ մուտքագրեք փոխարկման ենթակա թիվը,որը պետք է բացասական չլինի");
+        System.out.println("Խնդրում եմ մուտքագրեք փոխարկման ենթակա թիվը,որը պետք է բացասական չլինի և չգերազանցի 9999999.99՝ օրինակ: 124.56 ");
         Scanner scanner = new Scanner(System.in);
         String input = scanner.next();
         convertNumToWord(input);
