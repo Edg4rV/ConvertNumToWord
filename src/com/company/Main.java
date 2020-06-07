@@ -31,12 +31,6 @@ public class Main {
         tens.put(7,"յոթանասուն");
         tens.put(8,"ութսուն");
         tens.put(9,"իննսուն");
-    Map<Integer, String> hundreds = new HashMap<>();
-        hundreds.put(100,"հարյուր");
-    Map<Integer, String> thousands = new HashMap<>();
-        thousands.put(1000,"հազար");
-    Map<Integer, String> millions = new HashMap<>();
-        millions.put(1000000,"միլիոն");
     char[] money = Arrays.copyOf(convert, index);
     char[] cent = Arrays.copyOfRange(convert, index + 1, convert.length);
     String haryur = "հարյուր";
